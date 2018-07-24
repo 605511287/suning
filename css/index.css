@@ -305,7 +305,7 @@ a{
 	top: 0;
 }
 .lunbo .bigbox{
-	width: 1190px;
+	width: 100%;
 	height: 440px;
 	margin: 0 auto;
 	position: relative;
@@ -485,7 +485,8 @@ a{
 	height: 440px;
 	float: left;
 	position: absolute;
-	left: 190px;
+	left:270px;
+	margin:0 auto;
 	top: 0;
 	overflow: hidden;
 }
@@ -523,11 +524,13 @@ a{
 	background-position: -198px -145px;
 	cursor: pointer;
 }
-.lunbo:hover .img .small{
+.bigbox:hover .img .small{
 	left: 0;
+	z-index: 60;
 }
-.lunbo:hover .img .next{
+.bigbox:hover .img .next{
 	left: 800px;
+	z-index: 60;
 }
 .lunbo .bigbox .img .yuan{
 	width: 228px;
@@ -560,6 +563,7 @@ a{
 	position: absolute;
 	right: 5px;
 	top: 5px;
+	z-index: 50;
 }
 .lunbo .bigbox .img .up a{
 	display: block;
@@ -591,6 +595,7 @@ a{
 	position: absolute;
 	right: 5px;
 	top: 223px;
+	z-index: 50;
 }
 .lunbo .bigbox .img .down a{
 	display: block;
